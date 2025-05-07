@@ -8,4 +8,4 @@ Run cmd files on Linux (and MacOS).
 
 ---
 Built with ❤️ by Andrew Baki.  
-Copyright (c) 2025. Licensed under GPL.
+Copyright © 2025. Licensed under GPL.
