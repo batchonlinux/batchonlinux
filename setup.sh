@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export BATCH_ON_LINUX_PATH="$HOME/BatchOnLinux"
+export BATCH_ON_LINUX_PATH="$HOME/.BatchOnLinux"
 export PATH="$BATCH_ON_LINUX_PATH/bin:$PATH"
 
 if ! command -v wine &> /dev/null; then
