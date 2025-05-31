@@ -13,7 +13,7 @@ if ! gem list -i "wine"; then
   gem install wine || { echo "Error: Failed to install Wine gem."; exit 1; }
 fi
 
-if ! grep -q "BatchOnLinux" ~/.bashrc && ! grep -q "BatchOnLinux" ~/.zshrc; then
+if ! grep -q "bat./" ~/.bashrc && ! grep -q "bat./" ~/.zshrc; then
   echo "Adding BatchOnLinux to your shell config..."
   echo 'alias bat./="ruby $BATCH_ON_LINUX_PATH/bin/batch_on_linux.rb"' >> ~/.bashrc
   echo 'alias bat./="ruby $BATCH_ON_LINUX_PATH/bin/batch_on_linux.rb"' >> ~/.zshrc
